@@ -54,6 +54,8 @@
 #include "injection.hpp"
 #include "power_module.hpp"
 
+#include "meow.h"
+
 
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -178,7 +180,6 @@ int main( int argc, char **argv )
   } else {
     gWatchOut = new ofstream(watch_out_file.c_str());
   }
-  
 
   /*configure and run the simulator
    */
